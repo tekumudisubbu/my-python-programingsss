@@ -1,0 +1,7 @@
+a=int(input())
+z=int(input())
+for n in range(a,z):
+    if n%4==0 and n%100!=0 or n%400==0:
+        print('leap year')
+    else:
+        print('not leap year')
