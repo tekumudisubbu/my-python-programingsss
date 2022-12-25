@@ -1,0 +1,11 @@
+n = int(input())
+num = int(input())
+b=num
+s=b
+for i in range (1,n):
+    num=int(input())
+    if b<num:
+        b=num
+    if s>num:
+        s=num
+print('max',b,'small',s)
